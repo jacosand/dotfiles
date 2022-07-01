@@ -101,6 +101,14 @@ alias egrep='egrep --color=auto'
 
 
 ####################
+#     SETTINGS     #
+####################
+
+# Make vim default editor
+export EDITOR=vim
+
+
+####################
 #   LOCAL CONFIG   #
 ####################
 

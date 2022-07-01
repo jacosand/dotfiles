@@ -1,0 +1,35 @@
+[alias]
+
+    # View graph
+    graph = log --all --graph --decorate --oneline
+
+[user]
+
+    name = Jacob Sanders
+    email = jacosand@gmail.com
+
+[color]
+
+    # Use colors in Git commands when outputting to the terminal.
+    ui = auto
+
+[core]
+
+    # Set default text editor to vim
+    editor = vim 
+
+[init]
+
+    # Make default branch name main
+    defaultBranch = main
+
+[core]
+
+    # List files to ignore in .gitignore_global
+    excludesfile = ~/.gitignore_global
+
+[include]
+
+    # Allow local customizations in the .gitconfig_local file
+    path = ~/.gitconfig_local
+

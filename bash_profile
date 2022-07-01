@@ -61,6 +61,9 @@ export PS1;
 PS2="\[${resetStyle}\]\$ ";
 export PS2;
 
+# Use Vim-mode at shell prompt
+set -o vi
+
 
 ####################
 #     ALIASING     #
